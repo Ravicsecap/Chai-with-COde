@@ -35,7 +35,7 @@ const b = createMyDate2.toLocaleString(`default`,{
 
 console.log(b)
 
-
+console.log(Math.ceil(2.9));
 
 
 
