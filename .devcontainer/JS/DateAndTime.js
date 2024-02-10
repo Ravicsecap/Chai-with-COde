@@ -21,7 +21,7 @@ console.log(myDate.toLocaleDateString());
 
 // 3)const createMyDate = new Date(2024,2,10,9,8);
 
-2)const createMyDate = new Date('02/10/2024');
+const createMyDate = new Date('02/10/2024');
 
 console.log(createMyDate.toLocaleString());
 
