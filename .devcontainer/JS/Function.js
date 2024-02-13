@@ -22,5 +22,5 @@ function userName(a){
     return `${a} , is logined` 
 }
 
-let a=userName() // retrun undefined output
+let b=userName() // retrun undefined output
 console.log(a);
