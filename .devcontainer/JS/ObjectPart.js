@@ -50,3 +50,12 @@ console.log(Object.entries(Bankacc));  // retrun Object.entries(Object_name)
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')) // retrun boolean value value have or havnt
 
+// De-structure of object 
+
+let shoping_details = ({shopping_mall:"Hi, Life ", Mall_phone: 986565455})
+
+const {shopping_mall:name } = shoping_details
+const {Mall_phone:mobile } = shoping_details
+
+console.log(mobile);
+ console.log(name);
