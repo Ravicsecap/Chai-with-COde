@@ -105,3 +105,6 @@ const month = 3;
 
   mobileprice <= 80000 ? console.log("less than 80 k"):console.log("more than 80k");
 
+
+
+
