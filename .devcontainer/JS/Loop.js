@@ -5,7 +5,8 @@ for (let index = 0; index < 10; index++) {
     const element = index;
 
     console.log(element);
-
+    console.log(element);
+    
       
 }
 
@@ -43,6 +44,7 @@ for (let index = 0; index < 10; index++) {
     const element = (` My Heros :- ${super_Heros[i]}`)
 
     console.log(element);
+    console.log(element);
     
  }
 
@@ -62,3 +64,26 @@ for (let index = 0; index < 10; index++) {
 
  // break key word use for condition flow achive then code existing 
  // continues  skip one time condtion then allow
+
+
+ // while loop
+
+// 
+let i = 1
+
+ while (i <= 10) {
+
+   console.log(`number :- ${i}`);
+   i += 1
+   
+ }
+
+
+//  let j = 0
+ let j = 11
+ do {
+   console.log(`number :- ${j}`)
+   j++
+   
+ } while (j <= 10);
+ 
