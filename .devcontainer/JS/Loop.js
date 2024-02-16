@@ -85,5 +85,8 @@ let i = 1
    console.log(`number :- ${j}`)
    j++
    
- } while (j <= 10);
+  } while (j <= 10);
+ 
+ 
+ 
  
