@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+
+    <div class="parent">
+       <div class="day">Monday</div>
+       <div class="day">Tuseday</div>
+       <div class="day">Wday</div>
+       <div class="day">Thday</div>
+       <div class="day">Fday</div>
+       <div class="day">Sday</div>
+       <div class="day">Sunday</div>
+
+    </div>
+   
+</body>
+<script>
+
+   const findParentElement=document.querySelector(".parent");
+   console.log(findParentElement);  
+
+   console.log(findParentElement.children)
+
+   console.log(findParentElement.children[1]);
+   console.log(findParentElement.children[6].innerText);
+
+   console.log(findParentElement.firstElementChild);
+   console.log(findParentElement.lastElementChild);
+
+   console.log(findParentElement.firstChild);
+   console.log(findParentElement.lastChild);
+
+   const childofParent = document.querySelector(".day");
+   console.log(childofParent);
+
+   console.log(childofParent.parentElement);
+   console.log(childofParent.nextElementSibling);
+   console.log(childofParent.previousElementSibling);
+
+   console.log(findParentElement.childNodes);
+
+   
+
+
+</script>
+</html>
